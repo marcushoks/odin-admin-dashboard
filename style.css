@@ -59,6 +59,22 @@ li {
 .search-bar {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search-bar > img {
+  width: 1.5rem;
+}
+
+.search-bar > input {
+  border-radius: 999px;
+  border: 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  width: 80%;
 }
 
 .user-info {
