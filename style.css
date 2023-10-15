@@ -166,6 +166,7 @@ li {
 }
 
 .sidebar li {
+  cursor: pointer;
   margin: 1rem 0;
 
   display: flex;
