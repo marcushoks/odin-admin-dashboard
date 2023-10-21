@@ -150,6 +150,7 @@ button {
 
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .user-actions > button {
