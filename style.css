@@ -69,11 +69,11 @@ button {
 .main-content {
   grid-column: 2 / -1;
   grid-row-start: 2;
-  padding: 1rem;
+  padding: 2rem;
 
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .main-content__secondary {
@@ -187,7 +187,7 @@ button {
 
 .project-container {
   display: grid;
-  gap: 1rem;
+  gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
@@ -222,7 +222,7 @@ button {
   --card-border-radius: 8px;
 
   border-radius: var(--card-border-radius);
-  padding: 1rem;
+  padding: 1.5rem 2rem;
   box-shadow: 2px 2px 8px var(--bg-secondary-color);
   background-color: var(--bg-secondary-color);
 }
