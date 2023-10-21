@@ -1,10 +1,18 @@
+:root {
+  --bg-primary-color: #020617;
+  --bg-secondary-color: #0f172a;
+  --font-color: #f8fafc;
+  --primary-color: #94a3b8;
+  --secondary-color: #1e293b;
+}
+
 body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100vh;
-  background-color: black;
-  color: white;
+  background-color: var(--bg-primary-color);
+  color: var(--font-color);
 
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -49,6 +57,7 @@ button {
 }
 
 .sidebar {
+  background-color: var(--secondary-color);
   grid-column: 1 / span 1;
   grid-row: 1 / span 2;
   padding: 1rem;
@@ -87,6 +96,8 @@ button {
 }
 
 .search-bar > input {
+  color: var(--font-color);
+  background-color: var(--primary-color);
   border-radius: 999px;
   border: 0;
   padding: 0.5rem 1rem;
@@ -146,7 +157,8 @@ button {
   border: 0;
   border-radius: 999px;
   padding: 0.5rem 1rem;
-  background-color: white;
+  background-color: var(--secondary-color);
+  color: var(--font-color);
 }
 
 .user-actions > button:hover {
@@ -211,10 +223,12 @@ button {
 
   border-radius: var(--card-border-radius);
   padding: 1rem;
+  box-shadow: 2px 2px 8px var(--bg-secondary-color);
+  background-color: var(--bg-secondary-color);
 }
 
 .card--project {
-  border-left: var(--card-border-radius) solid white;
+  border-left: var(--card-border-radius) solid var(--primary-color);
 
   display: flex;
   flex-direction: column;
