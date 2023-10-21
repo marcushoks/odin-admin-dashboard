@@ -105,6 +105,10 @@ button {
   width: 80%;
 }
 
+.search-bar > input:focus-visible {
+  outline: 2px solid var(--font-color);
+}
+
 .user-info {
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
