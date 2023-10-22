@@ -130,6 +130,14 @@ button {
   gap: 1rem;
 }
 
+.username {
+  font-weight: 700;
+}
+
+.username--large {
+  font-size: 1.5rem;
+}
+
 .notification-bell {
   padding: 0.5rem;
 }
