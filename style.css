@@ -112,6 +112,14 @@ button {
   outline: 2px solid var(--font-color);
 }
 
+.search-bar > input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  background-image: url("./img/header/close.svg");
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
 .user-info {
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
